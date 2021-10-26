@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+*{
+  box-sizing: border-box;
+}
 .root{
   margin: 0;
 }
@@ -40,12 +43,28 @@ header,main.footer{
   width: 900px;
 }
 
-.btnShow{
-  width: 150px;
-  height: 150px;
+
+h1{
+  width: 200px;
+  height: 200px;
   font-size: 30px;
   border-radius: 50%;
   margin-bottom: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-left: 210px;
+  padding-top: 80px;
+  
+}
+.circle{
+  background-color: rgb(146, 219, 219);
+}
+.even{
+  background-color: yellowgreen;
+}
+.odd{
+  background-color: blue;
 }
 main{
   display: flex;
