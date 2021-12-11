@@ -3,7 +3,7 @@ const Footer=(props)=>{
         
             <footer>
             <small>
-                Made by Shubhangi Naik.
+            Shubhangi Naik &copy; 2021
             </small>
             </footer>
         </div>

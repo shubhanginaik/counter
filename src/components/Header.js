@@ -1,7 +1,7 @@
 const Header = (props)=>{
     return (<div className="header">
     <header>
-    <h4>Counter app</h4>
+    <h3>Counter app</h3>
         </header>
         </div>
     );
